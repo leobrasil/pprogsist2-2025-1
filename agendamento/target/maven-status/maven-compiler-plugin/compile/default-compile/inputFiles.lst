@@ -1,3 +1,5 @@
 /workspaces/pprogsist2-2025-1/agendamento/src/main/java/br/mackenzie/ps2/agendamento/AgendamentoApplication.java
+/workspaces/pprogsist2-2025-1/agendamento/src/main/java/br/mackenzie/ps2/agendamento/model/Clinica.java
 /workspaces/pprogsist2-2025-1/agendamento/src/main/java/br/mackenzie/ps2/agendamento/model/Paciente.java
+/workspaces/pprogsist2-2025-1/agendamento/src/main/java/br/mackenzie/ps2/agendamento/repository/ClinicaRepo.java
 /workspaces/pprogsist2-2025-1/agendamento/src/main/java/br/mackenzie/ps2/agendamento/repository/PacienteRepo.java
