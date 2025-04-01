@@ -5,16 +5,20 @@ import java.util.Calendar;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.GeneratedValue;
+
 
 @Entity
 @Table
 public class Paciente {
-    @Id
+    @Id @GeneratedValue
     private long id;
     private String nome;
+
+    public Paciente() {}
     
-    public Paciente(Long id, String nome){
-        this.id = id;
+    public Paciente( String nome){
+        
         this.nome=nome;
     }
 

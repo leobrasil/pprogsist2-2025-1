@@ -22,7 +22,7 @@ public class AgendamentoApplication implements CommandLineRunner {
 
 	public void createPaciente(){
 
-		Paciente p = new Paciente(null, "joao");
+		Paciente p = new Paciente( "joao");
 		pacienteRepo.save(p);
 	}
 
@@ -35,7 +35,8 @@ public class AgendamentoApplication implements CommandLineRunner {
 	}
 
 	public void run(String... args){
-
+		createPaciente();
+		listAllPacientes();
 	}
 
 }
