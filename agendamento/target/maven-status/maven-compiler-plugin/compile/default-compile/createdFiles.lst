@@ -1,3 +1,7 @@
 br/mackenzie/ps2/agendamento/model/Paciente.class
-br/mackenzie/ps2/agendamento/AgendamentoApplication.class
+br/mackenzie/ps2/agendamento/repository/ClinicaRepo.class
 br/mackenzie/ps2/agendamento/repository/PacienteRepo.class
+br/mackenzie/service/PacienteService.class
+br/mackenzie/ps2/agendamento/AgendamentoApplication.class
+br/mackenzie/ps2/agendamento/model/Clinica.class
+br/mackenzie/ps2/agendamento/controller/PacienteController.class

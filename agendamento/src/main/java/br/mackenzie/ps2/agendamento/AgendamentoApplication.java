@@ -13,18 +13,13 @@ import br.mackenzie.ps2.agendamento.repository.ClinicaRepo;
 import br.mackenzie.ps2.agendamento.repository.PacienteRepo;
 
 @SpringBootApplication
-public class AgendamentoApplication implements CommandLineRunner {
+public class AgendamentoApplication {
 
-	@Autowired
-	private PacienteRepo pacienteRepo;
-
-	@Autowired
-	private ClinicaRepo clinicaRepo;
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(AgendamentoApplication.class, args);
 	}
-
+/*
 	public void createClinica(){
 		Clinica c = new Clinica("Clinica Corinthians campeao !!!!");
 		clinicaRepo.save(c);
@@ -64,14 +59,6 @@ public class AgendamentoApplication implements CommandLineRunner {
 		for (Paciente paciente : pacientes) {
 			System.out.println("Pacientes da clinica: "+paciente.getNome());
 		}
-	}
-
-	public void run(String... args){
-		createPaciente();
-		listAllPacientes();
-		createClinica();
-		cadastraPaciente();
-		listaPacientesClinica(1L);
-	}
+	} */
 
 }
